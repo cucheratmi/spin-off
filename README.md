@@ -24,12 +24,12 @@ Les skills actuellement proposées (d'autres sont en développement) sont les su
 
 | Nom | Version | Description et référence |
 | --- | --- | --- |
-| `analyse-critique-ecr` | V0.1 | Interprétation et analyse critique d'un essai randomisé de supériorité. Basée sur le document de la Société Française de Pharmacologie et de Thérapeutique sur la [lecture critique des essais thérapeutiques.](https://sfpt-fr.org/livreblancmethodo/part4/file_0.htm) |
-| `analyse-marge-non-inferiorite` | V0.1 | Évalue les aspects méthodologiques reliés à la problématique de la limite de non-infériorité (marge de non-infériorité). Basée sur le [guide EMA](https://www.ema.europa.eu/en/documents/scientific-guideline/draft-guideline-non-inferiority-equivalence-comparisons-clinical-trials_en.pdf) en cours d'élaboration sur les essais de non-infériorité et le document de la [Société Française de Pharmacologie et de Thérapeutique](https://sfpt-fr.org/livreblancmethodo/source/dossier%206%20-%20essai%20de%20non-inf%C3%A9riorit%C3%A9.pdf)  |
-| `analyse-critique-observationnelle-inferentielle` | V0.1 | Interprétation et analyse critique d'une étude observationnelle inférentielle (type RWE). Basée sur le travail de la table ronde des ateliers de Giens 2024 [Attentes méthodologiques pour la démonstration de l’efficacité des produits de santé par les études observationnelles](https://hal.science/hal-04812328v1/document) |
-| `analyse-critique-comparaison-externe` | V0.1 | Interprétation et analyse critique d'une comparaison à un groupe contrôle externe (ECA external comparison arm). Basée sur le document de la [Société Française de Pharmacologie et de Thérapeutique](https://sfpt-fr.org/livreblancmethodo/source/GCE.pdf)  |
+| `analyse-critique-ecr-v2` | V0.2 | Interprétation et analyse critique d'un essai randomisé de supériorité. Basée sur le document [démarche standardisés](https://???) |
+| `analyse-marge-non-inferiorite` | V0.1 | Évalue les aspects méthodologiques reliés à la problématique de la limite de non-infériorité (marge de non-infériorité). Basée sur le [guide EMA](https://www.ema.europa.eu/en/documents/scientific-guideline/draft-guideline-non-inferiority-equivalence-comparisons-clinical-trials_en.pdf) en cours d'élaboration sur les essais de non-infériorité |
+| `analyse-critique-observationnelle-inferentielle` | V0.1 | Interprétation et analyse critique d'une étude observationnelle inférentielle (type RWE). Basée la publication [Attentes méthodologiques pour la démonstration de l’efficacité des produits de santé par les études observationnelles](https://hal.science/hal-04812328v1/document) |
+| `analyse-critique-comparaison-externe` | V0.1 | Interprétation et analyse critique d'une comparaison à un groupe contrôle externe (ECA external comparison arm) |
 | `integrite-ecr` | V0.1 | Évaluer l'intégrité méthodologique d'un ECR confirmatoire : analyse de la chronologie de l'essai (date protocole, SAP, amendement, inclusion, DCO, analyse, gel de base, levée d'aveugle, publications secondaires), détection des incohérences et déviations au protocole/SAP ; interroge PubMed et ClinicalTrials.gov via les connecteurs |
-| audit-rapport-vs-avis-ct | V0.1 | Évalue la qualité de l'évaluation d'une étude faite par l'une de ces skills en utilisant comme benchmark l'avis de transparence portant sur la même étude. Nécessite de fournir le rapport d'analyse produit par la skill et le pdf de l'avis de transparence correspondant | 
+
 
 >Ces skills sont encore en développement et sont susceptibles d'évoluer rapidement. Des mises à jour seront mis en ligne régulièrement. 
 
@@ -41,7 +41,7 @@ Il s'agit d'un [standard ouvert](https://agentskills.io/home) disponible mainten
 
 ## Comment utiliser ces skills
 
-Une fois [installées,](#installation) les skills se déclenchent automatiquement lorsqu'un prompt demande une tache qui est couverte par les skills. Par exemple après avoir téléchargé le pdf d'un article d'essais clinique et demandé d'analyser ou d'interpréter cette étude, l'AI détectera que cette demande correspond à la skill `analyse-critique-ecr` et l'utilisera pour répondre à la demande de l'utilisateur.
+Une fois [installées,](#installation) les skills se déclenchent automatiquement lorsqu'un prompt demande une tache qui est couverte par les skills. Par exemple après avoir téléchargé le pdf d'un article d'essais clinique et demandé d'analyser ou d'interpréter cette étude, l'AI détectera que cette demande correspond à la skill `analyse-critique-ecr-v2` et l'utilisera pour répondre à la demande de l'utilisateur.
 
 Vous pouvez aussi demander explicitement l'exécution d'une skill pour votre prompt à l'aide de la commande '/' suivi du nom de la skill, comme par exemple :
 ```
@@ -54,13 +54,13 @@ Vous pouvez aussi demander explicitement l'exécution d'une skill pour votre pro
 Pour installer ces skills sur votre outil habituel (Vibe de Mistral, chatGPT, Claude, antigravity, etc.) posez-lui la question dans un prompt.
 
 ```
-Comment installer les skills disponibles dans le GitHub cucheratmi/_skills 
+Comment installer les skills disponibles dans le GitHub cucheratmi/spin-off 
 ```
 
 ou plus directement 
 
 ```
-Installe les skills disponibles dans le Github cucheratmi/_skills (https://github.com/cucheratmi/_skills)
+Installe les skills disponibles dans le Github cucheratmi/spin-off (https://github.com/cucheratmi/spin-off)
 ```
 
 Si vous souhaitez n’installer qu'une skill particulière, le préciser dans le prompt d'installation.
@@ -90,7 +90,7 @@ La skill d'évaluation des essais cliniques a été évaluée à l'aide d'un ben
 
 <img src="image.png" alt="Benchmark des 24 essais" style="width: 60%; max-width: 600px; margin: 0 auto; display: block;" />
 
-Ces résultats ont été obtenus avec claude sonnet 5 high. Ce niveau de performance peut cependant être différent avec un autre LLM, agent ou harnais. Les évolutions technologiques sur ces éléments étant tellement rapide qu'une évaluation a un moment donné ne préjugera pas de la performance de ces skills ultérieurement ou avec un nouveau modèle ou un nouveau harnais. 
+Ces résultats ont été obtenus avec claude opus 5.5 medium. Ce niveau de performance peut cependant être différent avec un autre LLM, agent ou harnais. Les évolutions technologiques sur ces éléments étant tellement rapide qu'une évaluation a un moment donné ne préjugera pas de la performance de ces skills ultérieurement ou avec un nouveau modèle ou un nouveau harnais. 
 
 Avant utilisation il peut être judicieux de tester une skill sur 2 ou 3 études connues. Le résultat doit être cohérent avec la démarche d'analyse sur laquelle repose la skill (cf. tableau ci-dessus) et peut conduire à une analyse différente de celle effectuée avec une autre démarche ou perspective, sans que cela remette en cause la validité du résultat donné par l'IA.
 

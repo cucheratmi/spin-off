@@ -1,6 +1,10 @@
 ---
 name: "integrite-ecr"
 description: "Évaluer l'intégrité méthodologique d'un ECR confirmatoire : analyse de la chronologie de l'essai (dates protocole, SAP, amendement, inclusion, DCO, analyse, gel de base, levée d'aveugle, publications secondaires), détection des incohérences et déviations au protocole/SAP ; interroge PubMed et ClinicalTrials.gov via les connecteurs."
+metadata:
+  author: "Michel Cucherat"
+  version: "0.1.0"
+  url: "https://github.com/cucheratmi/spin-off"
 ---
 
 # Chronologie et intégrité méthodologique d'un ECR confirmatoire

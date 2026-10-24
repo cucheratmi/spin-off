@@ -40,6 +40,7 @@ Format cible : `.md`. Style sobre, orienté décideur HTA.
 - Hypothèses (taille d'effet attendue, puissance, alpha)
 - Gestion de la multiplicité, liste des critères avec gestion de la multiplicité (mention que les autres critères ne permettant pas d'inférer l'effet du traitement)
 - Population d'analyse principale (ITT, mITT), gestion des événements intercurrents
+- Gestion des analyses intermédiaire (contrôle du risque alpha global, préservation de l’intégrité scientifique de l'essai) 
 - Gestion des données manquantes
 
 
@@ -86,12 +87,12 @@ Définition des colonnes:
 - Données manquantes
 - Suivi insuffisant pour des outcomes à long terme
 
-## 8. Conclusion orientée décision
+## 8. Conclusion factuelle
 
-Réponse explicite à :
-1. Quels résultats sont **suffisamment probants** pour démontrer l’intérêt clinique du traitement étudié ?
-2. Le traitement doit-il être **inclus** dans la stratégie thérapeutique ? Pour quelle population ? À quelle place (1ʳᵉ ligne, 2ᵈᵉ ligne, recours) ?
 
+Réponse explicite à : Quels résultats sont **suffisamment probants** pour démontrer l’intérêt clinique du traitement étudié ?
+
+Ne pas se positionner sur l’intérêt ou pas du traitement dans la stratégie thérapeutique. 
 
 ---
 

@@ -1,25 +1,24 @@
 ---
-name: analyse-critique-ecr
+name: analyse-critique-ecr-v2
 description: Réaliser une analyse critique complète d'un essai clinique randomisé (ECR) en français, orientée HTA et décision réglementaire. Utilise cette compétence quand l'utilisateur demande une "analyse critique", une "lecture critique d'article (LCA)", une "évaluation méthodologique", "analyser cet essai", "appréciation critique", "review d'un RCT", ou téléverse un PDF d'essai clinique randomisé.
 metadata:
-  author: "Initiative SPIN-OFF"
-  version: "0.1.0"
-  url: "https://github.com/cucheratmi/_skills"
+  author: "Michel Cucherat"
+  version: "0.2.0"
+  url: "https://github.com/cucheratmi/spin-off"
 ---
 
 # Analyse critique d'un essai clinique randomisé
 
 ## Objectif
 
-Produire un rapport d'analyse critique d'un ECR destiné à un comité HTA
-ou à un décideur réglementaire, qui répond à la question : **cet essai
-apporte-t-il les preuves nécessaires pour intégrer le traitement dans la
+Produire un rapport d'analyse critique d'un ECR qui répond à la question : **quels sont les bénéfices cliniques démontrés et cliniquement pertinent
+qui pourraient éventuellement conduire à intégrer le traitement évalué dans la
 stratégie thérapeutique ?**
 
 Suivre scrupuleusement la démarche et les critères mentionnés dans cette skill.
 Le rapport doit être concis tout en étant suffisamment transparent dans la logique suivie pour l'évaluation des différents critères.    
 
-Si l'article rapporte simultanément 2 essais de phase 3 identiques (comme cela était demandé avant par la FDA) voir `references/essais-jumeaux`.
+Si l'article rapporte simultanément 2 essais de phase 3 identiques voir `references/essais-jumeaux`.
 
 
 ## Principe axiomatique
@@ -62,7 +61,7 @@ suivi, dates de l'essai - **S** Setting : pays, type de centres,
 contexte de soin - **Méthodologie** : design (parallèle, cross-over,
 factoriel, adaptatif), nature de l'hypothèse principale déclarée a
 priori (supériorité / non-infériorité), randomisation, aveugle, plan de contrôle du
-risque alpha, analyses intermédiaires, population d'analyse principale
+risque alpha, analyses intermédiaires, arrêt prématuré de l'essai, population d'analyse principale
 (ITT, mITT, per-protocole) ou méthode de gestion des événements
 intercurrents, gestion des données manquantes
 
@@ -94,15 +93,12 @@ Ne pas considérer tous les résultats mais seulement ceux qui peuvent être dé
 Pour les sous-groupes ne pas tenir compte à ce niveau des résultats des analyses en sous-groupes ordinaires mais seulement ceux avec contrôle de la multiplicité.
 
 
-### Étape 4 — Conclusion orientée décision
+### Étape 4 — Conclusion factuelle
 
 Rédiger une conclusion synthétique, uniquement en utilisant les éléments analysés précédemment, qui répond explicitement : 
 - Quels résultats sont **suffisamment probants** pour garantir l'intérêt du
 traitement évalué ?
 - Quels effets indésirables menacent la balance B/R ? 
-- Le traitement doit-il être **inclus** dans la stratégie
-thérapeutique ? Pour quelle population, à quelle place (1ʳᵉ ligne, 2ᵈᵉ
-ligne, recours), avec quelles précautions ? 
 - Quelles **incertitudes résiduelles** justifient de ne pas inclure le traitement évalué dans la
 stratégie thérapeutique ?
 
