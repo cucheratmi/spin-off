@@ -242,8 +242,7 @@ les deux groupes** (indistinguables). Au pire, cela peut rendre l'essai « néga
 groupes traités identiquement) — mais **cela ne peut pas favoriser sélectivement le groupe
 évalué**, puisqu'on ne peut pas cibler uniquement ces patients.
 
-> *Point oncologie (à vérifier pour la survie globale)* : pas de différence entre groupes dans
-> l'utilisation des **traitements post-progression**, qui peut sinon introduire un biais de suivi.
+> *Point oncologie (à vérifier pour la survie globale)* : pas de différence en faveur du traitement évalué entre groupes dans l'utilisation des **traitements post-progression** ayant démontrés un bénéfice sur la survie, qui peut sinon introduire un biais de suivi.
 
 ### Exemples de décision
 

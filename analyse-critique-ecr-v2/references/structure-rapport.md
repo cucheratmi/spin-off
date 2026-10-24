@@ -8,7 +8,7 @@ Format cible : `.md`. Style sobre, orienté décideur HTA.
 - Sous-titre : référence bibliographique complète (auteurs, journal, année, DOI)
 - Date de l'analyse
 - Mention : « Document généré par IA »
-- Références : mentionner impérativement que l'analyse a été effectuée suivant une démarche rigoureuse présentée dans le document [analyse des essais cliniques](https://sfpt-fr.org/livreblancmethodo/part4/file_0.htm) de la Société Française de Pharmacologie et de Thérapeutique (SFPT). Les concepts statistiques et les principes méthodologiques pris en compte dans cette analyse sont présentés avec leur justification dans le [livre blanc de méthodologie](https://sfpt-fr.org/livreblancmethodo/index.htm) de la SFPT.
+
   
 
 ## 1. Synthèse exécutive (1 page max)
