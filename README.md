@@ -30,7 +30,7 @@ Les skills actuellement proposées (d'autres sont en développement) sont les su
 | `analyse-marge-non-inferiorite` | V0.1 | Évalue les aspects méthodologiques reliés à la problématique de la limite de non-infériorité (marge de non-infériorité). Basée sur le [guide EMA](https://www.ema.europa.eu/en/documents/scientific-guideline/draft-guideline-non-inferiority-equivalence-comparisons-clinical-trials_en.pdf) en cours d'élaboration sur les essais de non-infériorité |
 
 
->Ces skills sont encore en développement et sont susceptibles d'évoluer rapidement. Des mises à jour seront mis en ligne régulièrement. 
+>Ces skills sont encore en développement et sont susceptibles d'évoluer rapidement. Des mises à jour seront mises en ligne régulièrement. 
 
 ## Généralités sur les skills (compétences)
 
@@ -73,7 +73,7 @@ Il est possible d'installer les skills sans passer par les prompts. En fonction 
 
 ## Intérêts des skills 
 
-Sans ces skills, Il est possible de demander à une IA d'analyser une étude clinique et d'interpréter ses résultats à partir du pdf de l'article avec un simple prompt du type "Quelles sont les limites méthodologiques de cette étude" ou "Que démontre cette étude ?". Mais l'analyse qui sera produite soulèvera un questionnement quant à la façon dont elle a été effectuée. Quels sont ses critères utilisés pour rejeter ou accepter un résultat, sur quelles bases ont été évalués les biais de l'étude, l'approche utilisée est-elle rigoureuse ? etc. Cette analyse, sortie d'une "boite noire", sera peu explicable. De plus, cette analyse ne sera certainement pas que le résultat de l'analyse rigoureuse et impartiale de la publication, mais sera influencée par la discussion et la conclusion des auteurs, avec éventuellement la reprise des spins de conclusion, et intégrera aussi les commentaires externes qui auront été ingurgités par l'IA lors de son apprentissage.
+Sans ces skills, il est possible de demander à une IA d'analyser une étude clinique et d'interpréter ses résultats à partir du pdf de l'article avec un simple prompt du type "Quelles sont les limites méthodologiques de cette étude" ou "Que démontre cette étude ?". Mais l'analyse qui sera produite soulèvera un questionnement quant à la façon dont elle a été effectuée. Quels sont ses critères utilisés pour rejeter ou accepter un résultat, sur quelles bases ont été évalués les biais de l'étude, l'approche utilisée est-elle rigoureuse ? etc. Cette analyse, sortie d'une "boite noire", sera peu explicable. De plus, cette analyse ne sera certainement pas que le résultat de l'analyse rigoureuse et impartiale de la publication, mais sera influencée par la discussion et la conclusion des auteurs, avec éventuellement la reprise des spins de conclusion, et intégrera aussi les commentaires externes qui auront été ingurgités par l'IA lors de son apprentissage.
 
 Les skills permettent de contrôler avec beaucoup de précision la façon dont l'article sera analysé au niveau méthodologique, statistique et clinique. Elles permettent aussi d'apporter les connaissances de  base nécessaires pour effectuer ces tâches et de spécifier les critères et les seuils à utiliser pour juger si un résultat est fiable ou non.  
 
@@ -90,7 +90,7 @@ La skill d'évaluation des essais cliniques a été évaluée à l'aide d'un ben
 
 <img src="image-1.png" alt="Benchmark des 30 essais" style="width: 60%; max-width: 600px; margin: 0 auto; display: block;" />
 
-Ces résultats ont été obtenus avec claude opus 5.5 medium. Ce niveau de performance peut cependant être différent avec un autre LLM, agent ou harnais. Les évolutions technologiques sur ces éléments étant tellement rapide qu'une évaluation a un moment donné ne préjugera pas de la performance de ces skills ultérieurement ou avec un nouveau modèle ou un nouveau harnais. 
+Ces résultats ont été obtenus avec claude opus 5.5 medium. Ce niveau de performance peut cependant être différent avec un autre LLM, agent ou harnais. Les évolutions technologiques sur ces éléments étant tellement rapides qu'une évaluation a un moment donné ne préjugera pas de la performance de ces skills ultérieurement ou avec un nouveau modèle ou un nouveau harnais. 
 
 Avant utilisation il peut être judicieux de tester une skill sur 2 ou 3 études connues. Le résultat doit être cohérent avec la démarche d'analyse sur laquelle repose la skill (cf. tableau ci-dessus) et peut conduire à une analyse différente de celle effectuée avec une autre démarche ou perspective, sans que cela remette en cause la validité du résultat donné par l'IA.
 
@@ -98,7 +98,7 @@ Ces skills ne sont que des outils pour faciliter le travail d'évaluation de ces
 
 Leur évaluation correcte de la pertinence clinique du comparateur ou de la taille de l'effet peut nécessiter de leur donner des points de repères dans le prompt (stratégie de traitement actuelle de ces patients, taille d'effet attendue, etc.).
 
-La qualité de l'analyse dépend grandement du harnais utilisés. Les harnais légers du type Pi, Hermes, etc. donne des résultats très inférieurs à ceux obtenus avec les outils plus avancées comme Claude, Vibe de mistral, chatGPT.  
+La qualité de l'analyse dépend grandement du harnais utilisé. Les harnais légers du type Pi, Hermes, etc. donnent des résultats très inférieurs à ceux obtenus avec les outils plus avancés comme Claude, Vibe de mistral, chatGPT, etc.  
 
 
 ## Utilisation
