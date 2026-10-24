@@ -25,10 +25,9 @@ Les skills actuellement proposées (d'autres sont en développement) sont les su
 | Nom | Version | Description et référence |
 | --- | --- | --- |
 | `analyse-critique-ecr-v2` | V0.2 | Interprétation et analyse critique d'un essai randomisé de supériorité |
-| `analyse-marge-non-inferiorite` | V0.1 | Évalue les aspects méthodologiques reliés à la problématique de la limite de non-infériorité (marge de non-infériorité). Basée sur le [guide EMA](https://www.ema.europa.eu/en/documents/scientific-guideline/draft-guideline-non-inferiority-equivalence-comparisons-clinical-trials_en.pdf) en cours d'élaboration sur les essais de non-infériorité |
 | `analyse-critique-observationnelle-inferentielle` | V0.1 | Interprétation et analyse critique d'une étude observationnelle inférentielle (type RWE). Basée la publication [Attentes méthodologiques pour la démonstration de l’efficacité des produits de santé par les études observationnelles](https://hal.science/hal-04812328v1/document) |
 | `analyse-critique-comparaison-externe` | V0.1 | Interprétation et analyse critique d'une comparaison à un groupe contrôle externe (ECA external comparison arm) |
-| `integrite-ecr` | V0.1 | Évaluer l'intégrité méthodologique d'un ECR confirmatoire : analyse de la chronologie de l'essai (date protocole, SAP, amendement, inclusion, DCO, analyse, gel de base, levée d'aveugle, publications secondaires), détection des incohérences et déviations au protocole/SAP ; interroge PubMed et ClinicalTrials.gov via les connecteurs |
+| `analyse-marge-non-inferiorite` | V0.1 | Évalue les aspects méthodologiques reliés à la problématique de la limite de non-infériorité (marge de non-infériorité). Basée sur le [guide EMA](https://www.ema.europa.eu/en/documents/scientific-guideline/draft-guideline-non-inferiority-equivalence-comparisons-clinical-trials_en.pdf) en cours d'élaboration sur les essais de non-infériorité |
 
 
 >Ces skills sont encore en développement et sont susceptibles d'évoluer rapidement. Des mises à jour seront mis en ligne régulièrement. 
