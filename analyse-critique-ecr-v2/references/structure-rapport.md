@@ -16,7 +16,6 @@ Format cible : `.md`. Style sobre, orienté décideur HTA.
 À mettre en premier après la page de garde — c'est ce que liront les décideurs pressés.
 
 - **Question évaluée** : 1 phrase
-- **Réponse synthétique** : le traitement doit-il être inclus dans la stratégie thérapeutique ? Pour qui, à quelle place ?
 - **Principaux résultats démontrés**
 - **Principales limites / incertitudes résiduelles**
 - **Recommandation** (3-5 lignes)
@@ -50,7 +49,7 @@ Format cible : `.md`. Style sobre, orienté décideur HTA.
 - Jugement global
 
 ## 4. Evaluation de la pertinence clinique
-- pertinence du comparateur (est-ce un comparateur loyal, correspondant ua meilleur traitement disponible à la date d'aujourd'hui ?)
+- pertinence du comparateur (est-ce un comparateur loyal, correspondant ua meilleur traitement disponible à la date d'aujourd'hui ? quel est l'essai ou les essai qui ont démontré son bénéfice clinique dans cette indication)
 - pertinence des critères de jugement (sont-ce des critères cliniques et non pas intermédiaires ?)
 - pertinence de la taille de l'effet (la magnitude de l'effet est-elle suffisante pour être cliniquement pertinente ? en particulier vis à vis de la lourdeur du traitement, de sa safety et de la pertinence clinique du critère) 
 - pertinence des patients étudiés (la population inclus n'est pas hyper-sélectionnée par rapport à la population visée ? En cas de run-in avant randomisation, quel est son retentissement sur la pertinence clinique des patients inclus ?)

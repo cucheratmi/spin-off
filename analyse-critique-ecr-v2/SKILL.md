@@ -51,14 +51,17 @@ ce qui avait été prévu avant le verrouillage de la base.
 
 ### Étape 2 — Décrire l'étude (PICOT-S)
 
-Extraire de manière concise : - **P** Population : critères d'inclusion
-/ exclusion, n randomisés, caractéristiques de base - **I** Intervention
-: molécule, dose, schéma, durée - **C** Comparateur : nature (placebo,
-traitement actif, soins standards), pertinence - **O** Outcomes :
-critère principal, critères secondaires avec controles de la
+Extraire de manière concise : 
+- **P** Population : critères d'inclusion / exclusion, n randomisés, caractéristiques de base 
+- **I** Intervention : molécule, dose, schéma, durée 
+- **C** Comparateur : nature (placebo, traitement actif, soins standards), 
+pertinence (mentionner les essais qui ont démontrés le bénéfice clinique de ce traitement 
+et déterminer si ce traitement est un comparateur loyal)
+- **O** Outcomes : critère principal, critères secondaires avec controles de la
 multiplicité, critères exploratoires, sécurité - **T** Timing : durée de
-suivi, dates de l'essai - **S** Setting : pays, type de centres,
-contexte de soin - **Méthodologie** : design (parallèle, cross-over,
+suivi, dates de l'essai 
+- **S** Setting : pays, type de centres, contexte de soin 
+- **Méthodologie** : design (parallèle, cross-over,
 factoriel, adaptatif), nature de l'hypothèse principale déclarée a
 priori (supériorité / non-infériorité), randomisation, aveugle, plan de contrôle du
 risque alpha, analyses intermédiaires, arrêt prématuré de l'essai, population d'analyse principale
@@ -81,13 +84,12 @@ Pour chaque résultat mis en avant dans l'essai, appliquer la grille de classifi
 6.  **Effet délétère certain mais ne contrebalançant par le bénéfice** —
     à signaler en sécurité
 
-Pour chaque résultat, détailler : - **Critère de jugement** (et
-population concernée si sous-groupe) - **Taille de l'effet** (effet
-relatif + effet absolu) - **Contrôle du risque alpha global**
-(signification statistique en terme de risque alpha global) - **Risque
-de biais** (voir `references/risque-de-biais.md`) - **Pertinence
-clinique** (cliniquement signifiant ? MCID franchi ? critère pertinent
-pour patient/régulateur ?)
+Pour chaque résultat, détailler : 
+- **Critère de jugement** (et population concernée si sous-groupe) 
+- **Taille de l'effet** (effet relatif + effet absolu) 
+- **Contrôle du risque alpha global** (signification statistique en terme de risque alpha global) 
+- **Risque de biais** (voir `references/risque-de-biais.md`) 
+- **Pertinence clinique** (cliniquement signifiant ? MCID franchi ? critère pertinent pour patient/régulateur ?)
 
 Ne pas considérer tous les résultats mais seulement ceux qui peuvent être décisifs pour la décision. 
 Pour les sous-groupes ne pas tenir compte à ce niveau des résultats des analyses en sous-groupes ordinaires mais seulement ceux avec contrôle de la multiplicité.

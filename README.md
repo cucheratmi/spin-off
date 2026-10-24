@@ -87,9 +87,9 @@ Il est aussi demandé que l'interprétation ne tient pas compte de la conclusion
 
 ## Validation 
 
-La skill d'évaluation des essais cliniques a été évaluée à l'aide d'un benchmark de 24 essais. Le taux d’exactitude sur les différents domaines évalués varie de 92% à 100%. 
+La skill d'évaluation des essais cliniques a été évaluée à l'aide d'un benchmark de 30 essais. Le taux d’exactitude sur les différents domaines évalués varie de 87% à 97%. 
 
-<img src="image.png" alt="Benchmark des 24 essais" style="width: 60%; max-width: 600px; margin: 0 auto; display: block;" />
+<img src="image-1.png" alt="Benchmark des 30 essais" style="width: 60%; max-width: 600px; margin: 0 auto; display: block;" />
 
 Ces résultats ont été obtenus avec claude opus 5.5 medium. Ce niveau de performance peut cependant être différent avec un autre LLM, agent ou harnais. Les évolutions technologiques sur ces éléments étant tellement rapide qu'une évaluation a un moment donné ne préjugera pas de la performance de ces skills ultérieurement ou avec un nouveau modèle ou un nouveau harnais. 
 
