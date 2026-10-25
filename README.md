@@ -104,7 +104,7 @@ Leur évaluation correcte de la pertinence clinique du comparateur ou de la tail
 La qualité de l'analyse dépend grandement du harnais utilisé. Les harnais légers du type Pi, Hermes, etc. donnent des résultats très inférieurs à ceux obtenus avec les outils plus avancés comme Claude, Vibe de mistral, chatGPT, etc.  
 
 
-## Utilisation
+## Utilisation des PDF des articles
 
 L'utilisation de ces skills nécessite de vérifier que le téléchargement sur l'outil d'IA des pdf des articles n'enfreint pas la législation en vigueur, par exemple en s'assurant dans le paramétrage et les conditions d'utilisation que les documents de l'utilisateur ne sont pas utilisés pour l'apprentissage du LLM. 
 
