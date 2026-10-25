@@ -11,9 +11,9 @@
 </p>
 
 
-Les skills mises à disposition ici permettent de doter les IA généralistes des compétences nécessaires pour analyser de manière critique et interpréter les résultats des études cliniques utilisées dans l'évaluation des interventions de santé (essais randomisés de supériorité ou d'infériorité, études observationnelles inférentielles, Real World Evidence, comparaisons indirectes, etc.).Elles assurent le transfert d'expertise pour éviter que les IA soient influencées par d'éventuels [spins de conclusion](https://sfpt-fr.org/livreblancmethodo/part1/file_17.htm) présents dans la publication analysée ou d'autres documents vus durant leur apprentissage.  
+Les skills mises à disposition ici permettent de doter les IA généralistes des compétences nécessaires pour analyser et interpréter de manière critique les résultats des études cliniques utilisées dans l'évaluation des interventions de santé (essais randomisés de supériorité ou d'infériorité, études observationnelles inférentielles, Real World Evidence, comparaisons indirectes, etc.). Elles assurent le transfert d'expertise pour éviter que les IA soient influencées par d'éventuels [spins de conclusion](https://sfpt-fr.org/livreblancmethodo/part1/file_17.htm) présents dans la publication analysée ou d'autres documents vus durant leur apprentissage.  
 
-Ces skills permettent à votre IA de produire un rapport évaluant une étude à partir du pdf de l'article (et éventuellement du supplément, du protocole ou du SAP) en se basant sur une expertise validée. 
+Ces skills permettent à votre IA de produire un rapport évaluant une étude à partir du pdf de l'article (et éventuellement du supplément, du protocole ou du SAP) en se basant sur une expertise méthodologiques validée. 
 
 > [!IMPORTANT]
 >_Attention, il convient de vérifier que l'IA que vous utilisez peut recevoir des pdf d'articles sans que cela enfreigne les dispositions légales en vigueur (ce qui pourrait avoir lieu si cette IA utilise les documents des documents pour leur apprentissage par exemple. Il y a souvent une option à cocher/décocher sur ce point.)_
@@ -48,6 +48,9 @@ Vous pouvez aussi demander explicitement l'exécution d'une skill pour votre pro
 ```
 
 Il est aussi possible de sélectionner une skill particulière avec les menus de la fenêtre de prompt sur la plupart des plateformes.
+
+Éventuellement, pour les questions de pertinence clinique, il peut être nécessaire de préciser dans le prompt les critères de jugement de la pathologie qui sont cliniquement pertinents, le traitement standard de la pathologie, etc. Ce complément de prompt permet d'avoir un contrôle sur ces éléments clés nécessaires à l'évaluation de la 
+pertinence clinique des résultats et d'éviter que celle-ci soit jugée de manière automatique, en fonction des points de repère plus ou moins fiables qu'aurait eus le LLM dans son apprentissage. L'expérience montre cependant que les outils modernes gèrent cette évaluation de façon satisfaisante par eux même.   
 
 ## Installation
 
