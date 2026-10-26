@@ -97,7 +97,7 @@ Ces résultats ont été obtenus avec claude opus 5.5 medium. Ce niveau de perfo
 
 Avant utilisation il peut être judicieux de tester une skill sur 2 ou 3 études connues. Le résultat doit être cohérent avec la démarche d'analyse sur laquelle repose la skill (cf. tableau ci-dessus) et peut conduire à une analyse différente de celle effectuée avec une autre démarche ou perspective, sans que cela remette en cause la validité du résultat donné par l'IA.
 
-Ces skills ne sont que des outils pour faciliter le travail d'évaluation de ces types études ou pour apporter aux lecteurs non méthodologistes d'une expertise renforcée. En aucun cas, ces outils ne doivent être considérés comme infaillibles. En particulier, ils peuvent ne pas comprendre des méthodes très inhabituelles ou des rédactions peu précises. De plus, comme nous, ils ne peuvent pas détecter la fraude bien faite. 
+Ces skills ne sont que des outils pour faciliter le travail d'évaluation de ces types études ou pour apporter aux lecteurs non-méthodologistes d'une expertise renforcée. En aucun cas, ces outils ne doivent être considérés comme infaillibles. En particulier, ils peuvent ne pas comprendre des méthodes très inhabituelles ou des rédactions peu précises. De plus, comme nous, ils ne peuvent pas détecter la fraude bien faite. 
 
 Leur évaluation correcte de la pertinence clinique du comparateur ou de la taille de l'effet peut nécessiter de leur donner des points de repères dans le prompt (stratégie de traitement actuelle de ces patients, taille d'effet attendue, etc.).
 
