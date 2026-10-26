@@ -8,7 +8,7 @@ Format cible : `.md`. Style sobre, orienté décideur HTA.
 - Sous-titre : référence bibliographique complète (auteurs, journal, année, DOI)
 - Date de l'analyse
 - Mention : « Document généré par IA »
-- Références : mentionner impérativement que l'analyse a été effectuée suivant une perspective de preuves formelles de l’intérêt clinique du traitement nécessaire pour changer les stratégies thérapeutiques : preuves au-delà de tout doute raisonnable, en particulier en termes de biais, de démonstration statistique avec gestion de la multiplicité, de pertinence clinique (critères de jugement, traitement contrôle, taille de l'effet, balance bénéfice risque) et de validité externe.
+- Perspective : mentionner impérativement que l'analyse a été effectuée suivant une perspective de recherche de preuves formelles, au-delà de tout doute raisonnable, de l’intérêt clinique du traitement. L'analyse évalue la robustesse des résultats, charge à l'utilisateur de conclure sur la place du traitement évalué dans la stratégie thérapeutique.
   
 
 ## 1. Synthèse exécutive (1 page max)
@@ -18,7 +18,6 @@ Format cible : `.md`. Style sobre, orienté décideur HTA.
 - **Question évaluée** : 1 phrase
 - **Principaux résultats démontrés**
 - **Principales limites / incertitudes résiduelles**
-- **Recommandation** (3-5 lignes)
 
 
 ## 2. Description de l'étude

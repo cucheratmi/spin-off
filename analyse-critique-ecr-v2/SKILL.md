@@ -12,8 +12,7 @@ metadata:
 ## Objectif
 
 Produire un rapport d'analyse critique d'un ECR qui répond à la question : **quels sont les bénéfices cliniques démontrés et cliniquement pertinent
-qui pourraient éventuellement conduire à intégrer le traitement évalué dans la
-stratégie thérapeutique ?**
+qui pourraient éventuellement conduire à intégrer le traitement évalué dans la stratégie thérapeutique ?**
 
 Suivre scrupuleusement la démarche et les critères mentionnés dans cette skill.
 Le rapport doit être concis tout en étant suffisamment transparent dans la logique suivie pour l'évaluation des différents critères.    
