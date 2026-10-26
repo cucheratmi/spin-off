@@ -42,9 +42,9 @@ Il s'agit d'un [standard ouvert](https://agentskills.io/home) disponible mainten
 
 Une fois [installées,](#installation) les skills se déclenchent automatiquement lorsqu'un prompt demande une tache qui est couverte par les skills. Par exemple après avoir téléchargé le pdf d'un article d'essais clinique et demandé d'analyser ou d'interpréter cette étude, l'AI détectera que cette demande correspond à la skill `analyse-critique-ecr-v2` et l'utilisera pour répondre à la demande de l'utilisateur.
 
-Vous pouvez aussi demander explicitement l'exécution d'une skill pour votre prompt à l'aide de la commande '/' suivi du nom de la skill, comme par exemple :
+Vous pouvez aussi demander explicitement l'exécution d'une skill pour votre prompt à l'aide de la commande '/' suivi du nom de la skill, comme :
 ```
-/analyse-critique-ecr-v2 analyse cet essai clinique
+/analyse-critique-ecr-v2     analyser cet essai clinique
 ```
 
 Il est aussi possible de sélectionner une skill particulière avec les menus de la fenêtre de prompt sur la plupart des plateformes.
@@ -111,7 +111,7 @@ L'utilisation de ces skills nécessite de vérifier que le téléchargement sur 
 ## Références
 
 - Vanier A, Fernandez J, Kelley S, *et al.* Rapid access to innovative medicinal products while ensuring relevant health technology assessment. Position of the French National Authority for Health. *BMJ Evid Based Med* 2023. [PMC10850619](https://pmc.ncbi.nlm.nih.gov/articles/PMC10850619/)
-- 
+
 - Société Française de Pharmacologie te de Thérapeutique. Livre blanc - De la nécessité de la méthodologie dans l’évaluation des médicaments. https://sfpt-fr.org/livreblancmethodo/index.htm (accessed 4 September 2026)
  
 - Cucherat M, Demarcq O, Chassany O, et al. Attentes méthodologiques pour la démonstration de l’efficacité des produits de santé par les études observationnelles. Therapies. 2025;80:33–46. doi: 10.1016/j.therap.2024.10.052
