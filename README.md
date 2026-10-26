@@ -93,7 +93,7 @@ La skill d'évaluation des essais cliniques a été évaluée à l'aide d'un ben
 
 <img src="image-1.png" alt="Benchmark des 30 essais" style="width: 60%; max-width: 600px; margin: 0 auto; display: block;" />
 
-Ces résultats ont été obtenus avec claude opus 5.5 medium. Ce niveau de performance peut cependant être différent avec un autre LLM, agent ou harnais. Les évolutions technologiques sur ces éléments étant tellement rapides qu'une évaluation a un moment donné ne préjugera pas de la performance de ces skills ultérieurement ou avec un nouveau modèle ou un nouveau harnais. 
+Ces résultats ont été obtenus avec claude opus 5.5 medium. Ce niveau de performance peut cependant être différent avec un autre LLM, agent ou harnais. Les évolutions technologiques sur ces éléments étant tellement rapides qu'une évaluation à un moment donné ne préjuge pas de la performance de ces skills ultérieurement ou avec un nouveau modèle ou un nouveau harnais. L'analyse effectuée peut aussi être influencée par la mémoire intersessions de l'outil d'IA utilisé (idéalement il conviendrait de désactiver sur ces taches d'analyse).
 
 Avant utilisation il peut être judicieux de tester une skill sur 2 ou 3 études connues. Le résultat doit être cohérent avec la démarche d'analyse sur laquelle repose la skill (cf. tableau ci-dessus) et peut conduire à une analyse différente de celle effectuée avec une autre démarche ou perspective, sans que cela remette en cause la validité du résultat donné par l'IA.
 
