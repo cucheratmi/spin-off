@@ -33,7 +33,7 @@ Les skills actuellement proposées (d'autres sont en développement) sont les su
 
 >Ces skills sont encore en développement et sont susceptibles d'évoluer rapidement. Des mises à jour seront mises en ligne régulièrement. 
 
->Les deux skills `robins-i` et `rob2-itt` repose entièrement sur la connaissance de l'IA/LLM utilisé. Contrairement aux autres skills, aucun élément spécifique de connaissance n'est rajouté au contexte. La performance des ces skills est donc a priori comparable à celle déjà évaluée das ce domaine comme par exemple par Taneri PE. Human Versus Artificial Intelligence: Comparing Cochrane Authors’ and ChatGPT’s Risk of Bias Assessments. Cochrane Evidence Synthesis and Methods. 2025;3:e70044. doi: 10.1002/cesm.70044
+>Les deux skills `robins-i` et `rob2-itt`  reposent entièrement sur la connaissance de l'IA/LLM utilisé. Contrairement aux autres skills, aucun élément spécifique de connaissance n'est rajouté au contexte. La performance des ces skills est donc, a priori, comparable à celle déjà évaluée das ce domaine comme par exemple par Taneri PE. Human Versus Artificial Intelligence: Comparing Cochrane Authors’ and ChatGPT’s Risk of Bias Assessments. Cochrane Evidence Synthesis and Methods. 2025;3:e70044. doi: 10.1002/cesm.70044
  
 
 ## Généralités sur les skills (compétences)
