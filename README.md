@@ -26,11 +26,15 @@ Les skills actuellement proposées (d'autres sont en développement) sont les su
 | --- | --- | --- |
 | `analyse-critique-ecr-v2` | V1.0 | Interprétation et analyse critique d'un essai randomisé de supériorité |
 | `analyse-critique-observationnelle-inferentielle` | V0.1 | Interprétation et analyse critique d'une étude observationnelle inférentielle (type RWE). Basée la publication [Attentes méthodologiques pour la démonstration de l’efficacité des produits de santé par les études observationnelles](https://hal.science/hal-04812328v1/document) |
-| `analyse-critique-comparaison-externe` | V0.1 | Interprétation et analyse critique d'une comparaison à un groupe contrôle externe (ECA external comparison arm) |
-| `analyse-marge-non-inferiorite` | V0.1 | Évalue les aspects méthodologiques reliés à la problématique de la limite de non-infériorité (marge de non-infériorité). Basée sur le [guide EMA](https://www.ema.europa.eu/en/documents/scientific-guideline/draft-guideline-non-inferiority-equivalence-comparisons-clinical-trials_en.pdf) en cours d'élaboration sur les essais de non-infériorité |
+| `analyse-critique-comparaison-externe` | V0.1 | Interprétation et analyse critique d'une comparaison à un groupe contrôle externe (ECA external comparison arm). Basé sur le document SFPT sur les (comparaisons à un groupe contrôle externe](https://sfpt-fr.org/livreblancmethodo/source/GCE.pdf) |
 
+| `robins-i` | V0.1 | Applique l'outil d'évaluation du risque de biais des études non randomisées [ROBINS-I V2](https://www.riskofbias.info/welcome/robins-i-v2) : réponses aux questions indicatrices, justification de la réponse et mention de la partie de la publication utilisée pour répondre à la question indicatrice.|
+| `rob2-itt` | V0.1 | Applique l'outil d'évaluation du risque de biais des essais randomisés [ROB2](https://sites.google.com/site/riskofbiastool/welcome/rob-2-0-tool) : réponses aux questions indicatrices, justification de la réponse et mention de la partie de la publication utilisée pour répondre à la question indicatrice..
 
 >Ces skills sont encore en développement et sont susceptibles d'évoluer rapidement. Des mises à jour seront mises en ligne régulièrement. 
+
+>Les deux skills `robins-i` et `rob2-itt` repose entièrement sur la connaissance de l'IA/LLM utilisé. Contrairement aux autres skills, aucun élément spécifique de connaissance n'est rajouté au contexte. La performance des ces skills est donc a priori comparable à celle déjà évaluée das ce domaine comme par exemple par Taneri PE. Human Versus Artificial Intelligence: Comparing Cochrane Authors’ and ChatGPT’s Risk of Bias Assessments. Cochrane Evidence Synthesis and Methods. 2025;3:e70044. doi: 10.1002/cesm.70044
+ 
 
 ## Généralités sur les skills (compétences)
 
@@ -75,7 +79,7 @@ Il est possible d'installer les skills sans passer par les prompts. En fonction 
 >_Il est important d'analyser le contenu des skills avant de les installer pour écarter la possibilité de skill malveillante (par injection de prompt). Les IA font une analyse avant de faire l'installation, mais rien ne vaut une inspection visuelle du contenu de la skill._
 
 ### Installation par l'intermédiaire du plugin
-Des outils comme chatGPT utilisent aussi la notion de plugin qui est un ensemble de skills. Un fichier archive plugin est disponible sur le GitHub comme release.
+Des outils comme chatGPT utilisent aussi la notion de plugin qui est un ensemble de skills. Un fichier archive plugin `spin-off plugin.zip` est disponible sur le GitHub.
 
 ## Intérêts des skills 
 
