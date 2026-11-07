@@ -53,6 +53,7 @@ Il est aussi possible de sélectionner une skill particulière avec les menus de
 pertinence clinique des résultats et d'éviter que celle-ci soit jugée de manière automatique, en fonction des points de repère plus ou moins fiables qu'aurait eus le LLM dans son apprentissage. L'expérience montre cependant que les outils modernes gèrent cette évaluation de façon satisfaisante par eux même.   
 
 ## Installation
+### Installation des skills
 
 Pour installer ces skills sur votre outil habituel (Vibe de Mistral, chatGPT, Claude, antigravity, etc.) posez-lui la question dans un prompt.
 
@@ -73,6 +74,8 @@ Il est possible d'installer les skills sans passer par les prompts. En fonction 
 > [!WARNING]
 >_Il est important d'analyser le contenu des skills avant de les installer pour écarter la possibilité de skill malveillante (par injection de prompt). Les IA font une analyse avant de faire l'installation, mais rien ne vaut une inspection visuelle du contenu de la skill._
 
+### Installation par l'intermédiaire du plugin
+Des outils comme chatGPT utilisent aussi la notion de plugin qui est un ensemble de skills. Un fichier archive plugin est disponible sur le GitHub comme release.
 
 ## Intérêts des skills 
 
