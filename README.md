@@ -24,7 +24,7 @@ Les skills actuellement proposées (d'autres sont en développement) sont les su
 
 | Nom | Version | Description et référence |
 | --- | --- | --- |
-| `analyse-critique-ecr-v2` | V0.2 | Interprétation et analyse critique d'un essai randomisé de supériorité |
+| `analyse-critique-ecr-v2` | V1.0 | Interprétation et analyse critique d'un essai randomisé de supériorité |
 | `analyse-critique-observationnelle-inferentielle` | V0.1 | Interprétation et analyse critique d'une étude observationnelle inférentielle (type RWE). Basée la publication [Attentes méthodologiques pour la démonstration de l’efficacité des produits de santé par les études observationnelles](https://hal.science/hal-04812328v1/document) |
 | `analyse-critique-comparaison-externe` | V0.1 | Interprétation et analyse critique d'une comparaison à un groupe contrôle externe (ECA external comparison arm) |
 | `analyse-marge-non-inferiorite` | V0.1 | Évalue les aspects méthodologiques reliés à la problématique de la limite de non-infériorité (marge de non-infériorité). Basée sur le [guide EMA](https://www.ema.europa.eu/en/documents/scientific-guideline/draft-guideline-non-inferiority-equivalence-comparisons-clinical-trials_en.pdf) en cours d'élaboration sur les essais de non-infériorité |

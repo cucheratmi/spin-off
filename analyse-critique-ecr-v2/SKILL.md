@@ -129,7 +129,7 @@ Suivre la structure définie dans `references/structure-rapport.md`.
   risque (RD), différence de médianes, delta RMST).
 - **Toujours examiner la sécurité** : un essai sans analyse approfondie
   des effets indésirables est incomplet. Une décision d'inclusion exige
-  une balance B/R explicite.
+  une balance B/R explicite. Juger de la sécurité suivant le principe de précaution. Ne pas attendre une démonstration formelle d'un surcroît d'événements indésirables pour conclure à une remise en cause de la balance B/R. Un signal ou un  doute légitime est suffisant pour évoquer un défaut de sécurité.
 - **Citer les sources** : pour chaque chiffre, indiquer la table ou
   figure de l'article.
 - **Ne pas combler les manques** : si une donnée n'est pas dans

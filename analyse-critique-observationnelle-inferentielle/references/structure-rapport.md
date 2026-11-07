@@ -9,6 +9,7 @@ Format cible : `.md`. Style sobre, orienté décideur (HTA / réglementaire).
 - Question causale évaluée (1 phrase)
 - Date de l'analyse
 - Mention : « Document généré par IA »
+- Reference : Cucherat M, Demarcq O, Chassany O, et al. Attentes méthodologiques pour la démonstration de l’efficacité des produits de santé par les études observationnelles. Therapies. 2025;80:33–46. doi: 10.1016/j.therap.2024.10.052
 
 ## 1. Synthèse exécutive (1 page max)
 

@@ -1,7 +1,6 @@
 ---
 name: analyse-critique-etude-observationnelle
 description: Interpréter et évaluer une étude observationnelle (non randomisée, non interventionnelle) qui prétend démontrer l'efficacité ou le bénéfice clinique d'un traitement (technologie de santé), en vue d'une décision (HTA, réglementaire, remboursement, recommandations, stratégie thérapeutique)ou conclure si les résultats sont assez fiables pour justifier un changement de stratégie thérapeutique.
-version: "0.1.0"
 metadata:
   author: "Michel Cucherat"
   version: "1.0.0"
