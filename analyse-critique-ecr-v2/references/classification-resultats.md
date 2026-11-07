@@ -49,7 +49,8 @@ Résultat **non statistiquement significatif** en termes de risque alpha global.
 
 ## Effet délétère susceptible de contrebalancer le bénéfice
 
-Effet délétère (possible ou avéré) qui contrebalance un bénéfice démontré ou suggéré. **Invalide la possibilité d'introduire le traitement** dans la stratégie thérapeutique et réfute le ou les résultats qu'il contrebalance.
+Effet délétère (possible ou avéré) qui contrebalance un bénéfice démontré ou suggéré. A juger suivant le principe de précaution. Ne pas attendre une démonstration formelle d'un surcroît d'événements indésirables pour conclure à une remise en cause du bénéfice. Un signal ou un  doute légitime est suffisant pour évoquer un défaut de sécurité.
+**Invalide la possibilité d'introduire le traitement** dans la stratégie thérapeutique et réfute le ou les résultats qu'il contrebalance.
 
 ## Effet délétère certain mais non contrebalançant
 
