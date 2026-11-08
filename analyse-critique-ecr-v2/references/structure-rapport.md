@@ -40,18 +40,28 @@ Format cible : `.md`. Style sobre, orienté décideur HTA.
 - Population d'analyse principale (ITT, mITT), gestion des événements intercurrents
 - Gestion des analyses intermédiaire (contrôle du risque alpha global, préservation de l’intégrité scientifique de l'essai) 
 - Gestion des données manquantes
+- Mentionne comme références de cette section les chapitres suivant du livre blanc de la Société Française de Pharmacologie et de Thérapeutique :
+  - [Le contrôle du risque alpha global](https://sfpt-fr.org/livreblancmethodo/part7/file_0.htm)
+  - [L’analyse finale et les analyses intermédiaires](https://sfpt-fr.org/livreblancmethodo/part8/file_0.htm)
+  - [ Lecture critique des essais thérapeutiques - 6 Le contrôle du risque d’erreur statistique ](https://sfpt-fr.org/livreblancmethodo/part4/file_15.htm)
 
 
 ## 3. Évaluation du risque de biais 
 
 - Justification 1-2 phrases par domaine
 - Jugement global
+- Mentionne comme références de cette section les chapitres suivant du livre blanc de la Société Française de Pharmacologie et de Thérapeutique :
+  - [Les biais de l’essai de supériorité](https://sfpt-fr.org/livreblancmethodo/part6/file_0.htm)
+  - [ Lecture critique des essais thérapeutiques - 7 Évaluation du risque de biais ](https://sfpt-fr.org/livreblancmethodo/part4/file_36.htm)
 
 ## 4. Evaluation de la pertinence clinique
 - pertinence du comparateur (est-ce un comparateur loyal, correspondant ua meilleur traitement disponible à la date d'aujourd'hui ? quel est l'essai ou les essai qui ont démontré son bénéfice clinique dans cette indication)
 - pertinence des critères de jugement (sont-ce des critères cliniques et non pas intermédiaires ?)
 - pertinence de la taille de l'effet (la magnitude de l'effet est-elle suffisante pour être cliniquement pertinente ? en particulier vis à vis de la lourdeur du traitement, de sa safety et de la pertinence clinique du critère) 
 - pertinence des patients étudiés (la population inclus n'est pas hyper-sélectionnée par rapport à la population visée ? En cas de run-in avant randomisation, quel est son retentissement sur la pertinence clinique des patients inclus ?)
+- Mentionne comme références de cette section les chapitres suivant du livre blanc de la Société Française de Pharmacologie et de Thérapeutique :
+  - [Évaluation de la pertinence clinique](https://sfpt-fr.org/livreblancmethodo/part21/file_0.htm)
+  - [Lecture critique des essais thérapeutiques - 10 Évaluation de la pertinence clinique (clinical relevance)](https://sfpt-fr.org/livreblancmethodo/part4/file_46.htm)
 
 ## 5. Résultats par catégorie
 
@@ -74,6 +84,8 @@ Définition des colonnes:
 - Effets indésirables d'intérêt particulier
 - Décès liés au traitement
 - Calcul explicite de la balance B/R sur les principaux critères
+- Mentionne comme références de cette section les chapitres suivant du livre blanc de la Société Française de Pharmacologie et de Thérapeutique :
+  - [La balance bénéfice-risque](https://sfpt-fr.org/livreblancmethodo/part12/file_0.htm)
 
 ## 7. Limites et points de vigilance
 

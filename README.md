@@ -32,7 +32,7 @@ Les skills actuellement proposées (d'autres sont en développement) sont les su
 
 >Ces skills sont encore en développement et sont susceptibles d'évoluer rapidement. Des mises à jour seront mises en ligne régulièrement. 
 
->Les deux skills `robins-i` et `rob2-itt`  reposent entièrement sur la connaissance de l'IA/LLM utilisé. Contrairement aux autres skills, aucun élément spécifique de connaissance n'est rajouté au contexte. La performance des ces skills est donc, a priori, comparable à celle déjà évaluée das ce domaine comme par exemple par Taneri PE. Human Versus Artificial Intelligence: Comparing Cochrane Authors’ and ChatGPT’s Risk of Bias Assessments. Cochrane Evidence Synthesis and Methods. 2025;3:e70044. doi: 10.1002/cesm.70044
+>Les deux skills `robins-i` et `rob2-itt`  reposent entièrement sur la connaissance de l'IA/LLM utilisé. Contrairement aux autres skills, aucun élément spécifique de connaissance n'est rajouté au contexte. La performance des ces skills est donc, a priori, comparable à celle déjà évaluée dans ce domaine comme par exemple par Taneri PE. Human Versus Artificial Intelligence: Comparing Cochrane Authors’ and ChatGPT’s Risk of Bias Assessments. Cochrane Evidence Synthesis and Methods. 2025;3:e70044. doi: 10.1002/cesm.70044
  
 
 ## Généralités sur les skills (compétences)
@@ -123,8 +123,6 @@ L'utilisation de ces skills nécessite de vérifier que le téléchargement sur 
 - Cucherat M, Demarcq O, Chassany O, et al. Attentes méthodologiques pour la démonstration de l’efficacité des produits de santé par les études observationnelles. Therapies. 2025;80:33–46. doi: 10.1016/j.therap.2024.10.052
 
 - Sterne JAC, Savović J, Page MJ, et al. RoB 2: a revised tool for assessing risk of bias in randomised trials. BMJ. 2019;366:l4898. doi: 10.1136/bmj.l4898
-
-- [Livre blanc SFPT — Essai de non-infériorité](https://sfpt-fr.org/livreblancmethodo/source/dossier%206%20-%20essai%20de%20non-inf%C3%A9riorit%C3%A9.pdf)
 
 - Société Française de Pharmacologie et de Thérapeutique (SFPT), Groupe de Travail Méthodologie. *Comparaisons à un groupe contrôle externe* — Document de synthèse, version 1.0, avril 2026.
 

@@ -31,6 +31,8 @@ discuter car purement exploratoires.
 
 ## Workflow
 
+Avant tout vérifie qu'il n'existe pas une version plus récente de cette skill dans le GitHub https://github.com/cucheratmi/spin-off. Cette version est la 'v2'.
+
 ### Étape 1 — Lire intégralement l'article
 
 Lire le PDF de l'essai (et le supplément si fourni). Si l'article n'est
