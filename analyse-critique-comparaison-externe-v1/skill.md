@@ -1,9 +1,9 @@
 ---
-name: analyse-critique-comparaison-externe
+name: analyse-critique-comparaison-externe-v1
 description: Réaliser une analyse critique méthodologique d'une étude de comparaison à un groupe contrôle externe (external control arm/ECA, externally controlled trial).
 metadata:
   author: "michel Cucherat"
-  version: "0.1.0"
+  version: "1.0.0"
   url: "https://github.com/cucheratmi/spin-off"
 ---
 

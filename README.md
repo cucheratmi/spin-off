@@ -24,15 +24,15 @@ Les skills actuellement proposées (d'autres sont en développement) sont les su
 
 | Nom | Version | Description et référence |
 | --- | --- | --- |
-| `analyse-critique-ecr-v2` | V1.0 | Interprétation et analyse critique d'un essai randomisé de supériorité |
-| `analyse-critique-observationnelle-inferentielle` | V0.1 | Interprétation et analyse critique d'une étude observationnelle inférentielle (type RWE). Basée la publication [Attentes méthodologiques pour la démonstration de l’efficacité des produits de santé par les études observationnelles](https://hal.science/hal-04812328v1/document) |
-| `analyse-critique-comparaison-externe` | V0.1 | Interprétation et analyse critique d'une comparaison à un groupe contrôle externe (ECA external comparison arm). Basé sur le document SFPT sur les [comparaisons à un groupe contrôle externe](https://sfpt-fr.org/livreblancmethodo/source/GCE.pdf) |
-| `robins-i` | V0.1 | Applique l'outil d'évaluation du risque de biais des études non randomisées [ROBINS-I V2](https://www.riskofbias.info/welcome/robins-i-v2) : réponses aux questions indicatrices, justification de la réponse et mention de la partie de la publication utilisée pour répondre à la question indicatrice.|
-| `rob2-itt` | V0.1 | Applique l'outil d'évaluation du risque de biais des essais randomisés [ROB2](https://sites.google.com/site/riskofbiastool/welcome/rob-2-0-tool) : réponses aux questions indicatrices, justification de la réponse et mention de la partie de la publication utilisée pour répondre à la question indicatrice..
+| `analyse-critique-ecr-v2` | V2.0 | Interprétation et analyse critique d'un essai randomisé de supériorité |
+| `analyse-critique-etude-observationnelle-v1` | V1.0 | Interprétation et analyse critique d'une étude observationnelle inférentielle (type RWE). Basée la publication [Attentes méthodologiques pour la démonstration de l’efficacité des produits de santé par les études observationnelles](https://hal.science/hal-04812328v1/document) |
+| `analyse-critique-comparaison-externe-v1` | V1.0 | Interprétation et analyse critique d'une comparaison à un groupe contrôle externe (ECA external comparison arm). Basé sur le document SFPT sur les [comparaisons à un groupe contrôle externe](https://sfpt-fr.org/livreblancmethodo/source/GCE.pdf) |
+| `robins-i-v1` | V1.0 | Applique l'outil d'évaluation du risque de biais des études non randomisées [ROBINS-I V2](https://www.riskofbias.info/welcome/robins-i-v2) : réponses aux questions indicatrices, justification de la réponse et mention de la partie de la publication utilisée pour répondre à la question indicatrice.|
+| `rob2-itt-v1` | V1.0 | Applique l'outil d'évaluation du risque de biais des essais randomisés [ROB2](https://sites.google.com/site/riskofbiastool/welcome/rob-2-0-tool) : réponses aux questions indicatrices, justification de la réponse et mention de la partie de la publication utilisée pour répondre à la question indicatrice..
 
 >Ces skills sont encore en développement et sont susceptibles d'évoluer rapidement. Des mises à jour seront mises en ligne régulièrement. 
 
->Les deux skills `robins-i` et `rob2-itt`  reposent entièrement sur la connaissance de l'IA/LLM utilisé. Contrairement aux autres skills, aucun élément spécifique de connaissance n'est rajouté au contexte. La performance des ces skills est donc, a priori, comparable à celle déjà évaluée dans ce domaine comme par exemple par Taneri PE. Human Versus Artificial Intelligence: Comparing Cochrane Authors’ and ChatGPT’s Risk of Bias Assessments. Cochrane Evidence Synthesis and Methods. 2025;3:e70044. doi: 10.1002/cesm.70044
+>Les deux skills `robins-i-v1` et `rob2-itt-v1`  reposent entièrement sur la connaissance de l'IA/LLM utilisé. Contrairement aux autres skills, aucun élément spécifique de connaissance n'est rajouté au contexte. La performance des ces skills est donc, a priori, comparable à celle déjà évaluée dans ce domaine comme par exemple par Taneri PE. Human Versus Artificial Intelligence: Comparing Cochrane Authors’ and ChatGPT’s Risk of Bias Assessments. Cochrane Evidence Synthesis and Methods. 2025;3:e70044. doi: 10.1002/cesm.70044
  
 
 ## Généralités sur les skills (compétences)

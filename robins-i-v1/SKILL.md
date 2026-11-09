@@ -1,5 +1,5 @@
 ---
-name: "robins-i"
+name: "robins-i-v1"
 description: "Assess risk of bias of a result from a non-randomized (cohort/follow-up) study with ROBINS-I V2 (Nov 2025) from uploaded article and supplement PDFs; sourced report + JSON via a Python algorithm."
 metadata:
   author: "Michel Cucherat and Claude"

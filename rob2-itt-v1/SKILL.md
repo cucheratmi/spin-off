@@ -1,5 +1,5 @@
 ---
-name: "rob2-itt"
+name: "rob2-itt-v1"
 description: "Assess risk of bias of a parallel-group RCT with Cochrane RoB 2.0 (ITT effect) from uploaded article and supplement PDFs; sourced detailed report + JSON via a Python algorithm."
 metadata:
   author: "Michel Cucherat and Claude"
