@@ -37,7 +37,7 @@ Les skills actuellement proposées (d'autres sont en développement) sont les su
 
 ## Généralités sur les skills (compétences)
 
-Les skills permettent d'apporter des compétences spécifiques aux agents et plateformes d'IA (comme Vibe de Mistral, chatGPT, Claude, antigravity, etc.). Elles permettent de compléter les capacités de ces outils généralistes avec des expertises de haut niveau spécifiques à une tache.
+Les skills permettent d'apporter des compétences spécifiques aux agents et plateformes d'IA (comme Vibe de Mistral, chatGPT, Claude, Google Gemini, etc.). Elles permettent de compléter les capacités de ces outils généralistes avec des expertises de haut niveau spécifiques à une tache.
 Il s'agit d'un [standard ouvert](https://agentskills.io/home) disponible maintenant sur presque toutes les IA.
 
 
@@ -45,7 +45,7 @@ Il s'agit d'un [standard ouvert](https://agentskills.io/home) disponible mainten
 
 Une fois [installées,](#installation) les skills se déclenchent automatiquement lorsqu'un prompt demande une tache qui est couverte par les skills. Par exemple après avoir téléchargé le pdf d'un article d'essais clinique et demandé d'analyser ou d'interpréter cette étude, l'AI détectera que cette demande correspond à la skill `analyse-critique-ecr-v2` et l'utilisera pour répondre à la demande de l'utilisateur.
 
-Vous pouvez aussi demander explicitement l'exécution d'une skill pour votre prompt à l'aide de la commande '/' suivi du nom de la skill, comme :
+Vous pouvez aussi demander explicitement l'exécution d'une skill pour votre prompt à l'aide de la commande '/' (ou '@' en fonction de l'IA) suivi du nom de la skill, comme :
 ```
 /analyse-critique-ecr-v2     analyser cet essai clinique
 ```
@@ -58,7 +58,7 @@ pertinence clinique des résultats et d'éviter que celle-ci soit jugée de mani
 ## Installation
 ### Installation des skills
 
-Pour installer ces skills sur votre outil habituel (Vibe de Mistral, chatGPT, Claude, antigravity, etc.) posez-lui la question dans un prompt.
+Pour installer ces skills sur votre outil habituel (Vibe de Mistral, chatGPT, Claude, Gemini, etc.) posez-lui la question dans un prompt.
 
 ```
 Comment installer les skills disponibles dans le GitHub cucheratmi/spin-off 
@@ -72,7 +72,7 @@ Installe les skills disponibles dans le Github cucheratmi/spin-off (https://gith
 
 Si vous souhaitez n’installer qu'une skill particulière, le préciser dans le prompt d'installation.
 
-Il est possible d'installer les skills sans passer par les prompts. En fonction des AI cela peut se faire à l'aide du menu (Claude, chatGPT, Mistral Vibe) ou en recopiant ces fichiers dans des répertoires dédiés.
+Il est possible d'installer les skills sans passer par les prompts. En fonction des AI cela peut se faire à l'aide du menu de personnalisation (Claude, chatGPT, Mistral Vibe, Gemini) ou en recopiant ces fichiers dans des répertoires dédiés.
 
 > [!WARNING]
 >_Il est important d'analyser le contenu des skills avant de les installer pour écarter la possibilité de skill malveillante (par injection de prompt). Les IA font une analyse avant de faire l'installation, mais rien ne vaut une inspection visuelle du contenu de la skill._
